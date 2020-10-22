@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -15,23 +18,55 @@
         </li>
     </ul>
 
-    <h1>Sobre o Guilherme</h1>
-   
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero mollitia impedit iusto tempora quisquam, a ex fuga. Ducimus accusamus expedita molestias cupiditate,
-       ab excepturi! Beatae omnis officiis vero incidunt!
-    </p>   
+    <h1 class="center">Sobre o Guilherme</h1>
 
-    <p>        
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iure eum natus possimus vitae cupiditate voluptatem perferendis, esse ipsum eveniet ducimus minus asperiores similique, 
-      sint aliquid commodi laudantium? Exercitationem, veniam! 
-    </p>
+    <div class="container">
 
-    <img src="assets/img/foto morena.jpg" alt="Foto do Criador deste conteudo"> 
+        <div>
+            <img class="br-50 wh-300 p-30"  src="assets/img/foto morena.jpg" alt="Foto do Criador deste conteudo">
+        </div>
 
-    <h2>Meu video predileto:</h2>
+        <div class="p-30">
+            <p class="p1 , justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero mollitia impedit iusto tempora quisquam, a ex fuga. Ducimus accusamus expedita molestias cupiditate,
+                ab excepturi! Beatae omnis officiis vero incidunt!Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero mollitia impedit iusto tempora quisquam, a ex fuga.
+                Ducimus accusamus expedita molestias cupiditate, ab excepturi! Beatae omnis officiis vero incidunt!
+            </p>   
+            <p class="p1 , justify">        
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iure eum natus possimus vitae cupiditate voluptatem perferendis, esse ipsum eveniet ducimus minus asperiores similique, 
+                sint aliquid commodi laudantium? Exercitationem, veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero mollitia impedit iusto tempora quisquam, a ex fuga. 
+                Ducimus accusamus expedita molestias cupiditate, ab excepturi! Beatae omnis officiis vero incidunt! 
+            </p> 
+        </div>
+    </div>
+    
+    <h2 class="center">Meu video predileto:</h2>
 
-    <iframe width="660" height="315" src="https://www.youtube.com/embed/zyfE2xVQ-Ks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container mb-50 p-30">
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/zyfE2xVQ-Ks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <hr>
+    <footer>
+
+        <div class="container">
+            <a href="https://www.facebook.com/guilherme.cano.58" target="_blank">
+                <img class="tm-social" src="assets/img/facebook.png" alt="logo do facebook">
+            </a>
+            <a href="https://www.linkedin.com/in/guilherme-cano-21187b12b/" target="_blank">
+                <img class="tm-social" src="assets/img/linkedin.png" alt="logo do linkedin">
+            </a>
+            <a href="https://www.instagram.com/guilherme.cano/" target="_blank">
+                <img class="tm-social" src="assets/img/instagram.png" alt="logo do instagram">
+            </a>
+            
+        </div>
+
+
+        <p class="center">
+        Todos os direitos reservados: Guilherme Cano &COPY;
+        </p>   
+    </footer>
 
 </body>
 </html>
