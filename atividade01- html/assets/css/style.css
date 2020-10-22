@@ -1,9 +1,13 @@
 /*Estilos da página index.html*/
+body{
+    background-color: #ffffff;
+}
 .p1 {
     font-size: 25px;
 }
 .center{
     text-align: center;
+    color: #000000;
 }
 .h1{
     text-align: center;
@@ -13,15 +17,18 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
+    background-color: #000000;
 }
 #menu li {
     display: inline;
     padding: 15px;
     text-decoration: none;
+   
 }
 #menu li a {
     text-decoration: none;
-    color: #d63031;
+    color: #000000;
     font-size: 30px;
 }
 #menu li a:hover {
