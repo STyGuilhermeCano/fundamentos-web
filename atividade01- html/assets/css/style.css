@@ -40,6 +40,9 @@ body{
 .br-50{
     border-radius: 50%;
 }
+.brv-50{
+    border-radius: 20%;
+}
 .wh-300{
     width: 500px;
     height: 500px;
