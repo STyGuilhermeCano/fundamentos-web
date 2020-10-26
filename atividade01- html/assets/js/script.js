@@ -71,6 +71,6 @@ function mapaZoom() {
 }
 
 function mapaNormal() {
-    mapa.style.width = '400px'
-    mapa.style.heigth = '400px'
+    mapa.style.width = '350px'
+    mapa.style.heigth = '350px'
 }
